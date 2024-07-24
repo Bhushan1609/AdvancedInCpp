@@ -108,8 +108,8 @@ void updatePointQuery(ll index,ll low,ll high,ll &indexChange,ll &changeVal){
         return ;
     }
     ll mid = (low + high) >> 1; 
-    updatePointQuery( (index << 1 ) + 1 , low,mid,indexChange,changeVal);
-    updatePointQuery( (index << 1 ) + 2 , mid+1,high,indexChange,changeVal);
+    if(indexChange<=mid)updatePointQuery( (index << 1 ) + 1 , low,mid,indexChange,changeVal);
+    else updatePointQuery( (index << 1 ) + 2 , mid+1,high,indexChange,changeVal);
     segmentTree[index]=segmentTree[(index << 1 ) + 1]+segmentTree[(index << 1 ) + 2];
 }
 ll rangeSumQuery(ll index,ll low,ll high,ll start,ll end){
