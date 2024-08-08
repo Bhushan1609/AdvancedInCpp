@@ -1,7 +1,7 @@
 # Some Unknown cpp Algorithm
 
-1.Partial Sort and nth Element
-2.Ordered Set
+1.Partial Sort and nth Element<br>
+2.Ordered Set<br>
 
 # 1.Partial Sort and nth Element
 /*
