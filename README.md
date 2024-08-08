@@ -12,15 +12,19 @@ std::partial_sort has a time complexity of 𝑂(𝑁 log𝐾) where N is the num
 */
 ```cpp
 partial_sort(vec.begin(), vec.begin() + 5, vec.end());
-
-Partitioning: Elements before nth are less than or equal to the element at nth, and elements after nth are greater than or equal to it
+/*
+Partitioning: Elements before nth are less than or equal to the element at nth,
+and elements after nth are greater than or equal to it
+*/
 
 vec = {10, 2, 8, 6, 7, 5, 1, 3, 4, 9};
 
 nth_element(vec.begin(), vec.begin() + 4, vec.end()); // O(n)
-
+/*
 after-> 3 2 1 4 5 6 8 7 9 10
-all the left element of index 4 are less than the element at index 5 but not sorted ,, respectively for the right also...
+all the left element of index 4 are less than the element at index 5 but not sorted ,,
+respectively for the right also...
+*/
 ```
 
 
@@ -37,9 +41,13 @@ int main(){
 }
 
 s1.order_of_key(6)
-The order_of_key function is used to find the number of elements that are strictly less than a given element in a sorted container.
+/*The order_of_key function is used to find the number of
+elements that are strictly less than a given element in a sorted container.
+*/
 
 s1.find_by_order(2)
+/*
 The find_by_order function is used to find the element at a given index in a sorted container.
 It allows access to the element at a specific position in the sorted sequence.
+*/
 ```
