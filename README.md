@@ -40,7 +40,7 @@ int main(){
   s1 s; 
 }
 
-s1.order_of_key(6)
+*s1.order_of_key(6)
 /*The order_of_key function is used to find the number of
 elements that are strictly less than a given element in a sorted container.
 */
