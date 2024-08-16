@@ -13,17 +13,18 @@ std::partial_sort has a time complexity of 𝑂(𝑁 log𝐾) where N is the num
 ```cpp
 partial_sort(vec.begin(), vec.begin() + 5, vec.end());
 /*
-Partitioning: Elements before nth are less than or equal to the element at nth,
+Partitioning: Elements before 5th are less than or equal to the element at nth,
 and elements after nth are greater than or equal to it
 */
 
 vec = {10, 2, 8, 6, 7, 5, 1, 3, 4, 9};
 
-nth_element(vec.begin(), vec.begin() + 4, vec.end()); // O(n)
+nth_element(vec.begin(), vec.begin() + 4, vec.end()); 
 /*
-after-> 3 2 1 4 5 6 8 7 9 10
-all the left element of index 4 are less than the element at index 5 but not sorted ,,
-respectively for the right also...
+Avg .TC => O(n)
+
+Worst .TC => O(n^2)
+take the nth element at its correct position aftter sort
 */
 ```
 
