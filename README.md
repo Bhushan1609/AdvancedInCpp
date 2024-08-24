@@ -1,4 +1,4 @@
-# Some Unknown cpp Algorithm
+# Some Unknown cpp Algorithm's
 
 1.Partial Sort and nth Element<br> 
 2.Ordered Set<br>
