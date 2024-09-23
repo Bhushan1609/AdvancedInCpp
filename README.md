@@ -8,7 +8,7 @@
 /*
 In C++, a partial sort is an algorithm that partially sorts a range of elements in a container, such as a vector or an array. 
 Unlike a complete sort, which orders all elements, a partial sort rearranges only a portion of the elements so that the smallest 
-(or largest) elements are sorted up to a certain point.
+(or largest) elements are sorted up to a certain point. 
 std::partial_sort has a time complexity of 𝑂(𝑁 log𝐾) where N is the number of elements and K is the number of elements to sort
 */
 ```cpp
