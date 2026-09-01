@@ -11,7 +11,7 @@ Unlike a complete sort, which orders all elements, a partial sort rearranges onl
 (or largest) elements are sorted up to a certain point. 
 std::partial_sort has a time complexity of 𝑂(𝑁 log𝐾) where N is the number of elements and K is the number of elements to sort
 */
-```cpp
+```cpp.  
 partial_sort(vec.begin(), vec.begin() + 5, vec.end());
 /*
 Partitioning: Elements before 5th are less than or equal to the element at nth,
